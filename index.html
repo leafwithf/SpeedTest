@@ -7,6 +7,24 @@
     <title>SpeedTest</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Teste de Velocidade</h1>
+        <p>Clique no botão abaixo para testar a sua internet.</p>
+        
+        <button id="start-btn">Iniciar Teste</button>
+
+        <div id="result">
+            <p id="download-result"></p>
+            <p id="upload-result"></p>
+            <p id="ping-result"></p>
+        </div>
+        
+        <div id="progress">
+            <progress id="download-progress" value="0" max="100"></progress>
+            <progress id="upload-progress" value="0" max="100"></progress>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Onde você colocará o JS -->
 </body>
 </html>
